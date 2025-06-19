@@ -1,5 +1,5 @@
 # rti-project
-RTI community robotics project simulating a smart factory using ROS2 &amp; Gazebo 
+RTI community robotics project simulating a smart factory warehouse using ROS2 &amp; Gazebo 
 Built by a community of robotics learners from across India
 
 ## Features
