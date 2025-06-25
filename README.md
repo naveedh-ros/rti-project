@@ -16,3 +16,11 @@ Built by a community of robotics learners from across India
 
 
 _This is a student-led open simulation project — open to contributors and mentors alike._
+
+# Getting started
+
+To get started read [setup.md](/docs/setup.md)
+
+# Contributing
+
+To contribute to a package, create your package under src or find a relevant package to add your service. If your package is used to launch a service, define how to run in a README.md file for your package. 
