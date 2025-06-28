@@ -41,7 +41,7 @@ git checkout -b feature/<your-branch-name>
 
 1. Make changes and commit:
     ```bash
-    git add .
+    git add path/to/your/folder
     git commit -m "feat: your descriptive commit message"
     ```
 
