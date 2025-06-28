@@ -1,0 +1,3 @@
+string robot_name  # Request
+---
+geometry_msgs/Pose pose  # Response
