@@ -1,6 +1,6 @@
 # Contributing to RTI Project
 
-Thank you for your interest in contributing to the RTI robotics project! 
+Thank you for your interest in contributing to the RTI robotics project!
 This guide will help you get set up and understand how to contribute effectively.
 
 ---
@@ -86,4 +86,4 @@ colcon test-result --verbose
 
 ## Thanks!
 
-We appreciate your contribution to open-source robotics! 
+We appreciate your contribution to open-source robotics!
