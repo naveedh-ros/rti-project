@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find-pkg-share gazebo_ros)/launch/gazebo.launch.py">
+    <arg name="world" value="$(find-pkg-share warehouse_sim)/worlds/warehouse_world.world"/>
+  </include>
+</launch> 
