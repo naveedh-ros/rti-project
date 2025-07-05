@@ -21,12 +21,12 @@ Listens for navigation goals on `/robot_goal` topic and forwards them to the app
 - Automatic action client management per robot
 
 **Topics**:
-- Subscribes to: `/robot_goal` (`multibot_controller/msg/RobotGoal`)
+- Subscribes to: `/robot_goal` (`multibot_interfaces/msg/RobotGoal`)
 - Action Clients: `/<robot_name>/navigate_to_pose`
 
 **Example Usage**:
 ```bash
-ros2 topic pub -1 /robot_goal multibot_controller/msg/RobotGoal "
+ros2 topic pub -1 /robot_goal multibot_interfaces/msg/RobotGoal "
 robot_name:
   data: 'bot1'
 pose:
@@ -42,10 +42,10 @@ Provides a service to query current robot poses via AMCL.
 
 **Services**:
 ```bash
-/get_robot_pose (multibot_controller/srv/GetRobotPose)
+/get_robot_pose (multibot_interfaces/srv/GetRobotPose)
 ```
 
 **Usage**:
 ```bash
-ros2 service call /get_robot_pose multibot_controller/srv/GetRobotPose "{robot_name: 'bot1'}"
+ros2 service call /get_robot_pose multibot_interfaces/srv/GetRobotPose "{robot_name: 'bot1'}"
 ```

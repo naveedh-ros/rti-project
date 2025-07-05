@@ -3,7 +3,7 @@ import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionClient
 from geometry_msgs.msg import PoseStamped
-from multibot_controller.msg import RobotGoal
+from multibot_interfaces.msg import RobotGoal
 from nav2_msgs.action import NavigateToPose
 
 class GoalForwarder(Node):

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-from multibot_controller.srv import GetRobotPose
+from multibot_interfaces.srv import GetRobotPose
 from geometry_msgs.msg import PoseWithCovarianceStamped
 
 class PoseServer(Node):
