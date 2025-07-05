@@ -24,5 +24,4 @@ This document will guide you through installing and configuring all necessary de
 
 7. After you build, ensure you are sourcing the packages in this project by running `source ros2_ws/install/setup.bash` (You can also add this to .bashrc, or source everytime you open a new terminal)
 
-8. Follow instructions in each package to run them. 
-
+8. Follow instructions in each package to run them.

@@ -10,7 +10,7 @@ assignees: ''
 ##  Subteam Goal
 Briefly describe the team’s long-term goal or feature area.
 
-> _Example:_  
+> _Example:_
 > Provide a ROS2 Node that can detect and localize packages and broadcast info to robot arm and scheduler nodes.
 
 ---
@@ -18,9 +18,9 @@ Briefly describe the team’s long-term goal or feature area.
 ## Service Overview
 What is this subteam/service responsible for?
 
-- **Service name:**  
-- **Core functionality:**  
-- **Value proposition:**  
+- **Service name:**
+- **Core functionality:**
+- **Value proposition:**
 
 ---
 
