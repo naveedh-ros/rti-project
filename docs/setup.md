@@ -12,7 +12,7 @@ This document will guide you through installing and configuring all necessary de
 
 1. Run `sudo apt install ros-humble-desktop` Follow this [link](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) for more information and make sure you source ROS2. (Best if you add the setup file to .bashrc, if not make sure to source the ROS2 setup.bash everytime you open a new terminal)
 
-2. Run `git clone https://github.com/naveedh-ros/rti-project/` to clone the project repository
+2. Run `git clone --recursive https://github.com/naveedh-ros/rti-project/` to clone the project repository
 
 3. Run `cd rti-project`
 
