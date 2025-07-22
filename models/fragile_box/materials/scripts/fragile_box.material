@@ -1,0 +1,13 @@
+material fragile_box/fragile_texture
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture fragile_texture.png
+      }
+    }
+  }
+}
