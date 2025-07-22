@@ -1,0 +1,13 @@
+material standard_box/standard_texture
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture standard_texture.png
+      }
+    }
+  }
+}

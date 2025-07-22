@@ -1,0 +1,13 @@
+material hazard_box/hazard_texture
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture hazard_texture.png
+      }
+    }
+  }
+}
